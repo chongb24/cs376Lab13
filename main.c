@@ -5,11 +5,14 @@
  * program prints the phrase "I really love robots!" to the screen.
  *
  * @author Tanya L. Crenshaw
+ * @author justin lee 2020
  * @since August 2013
  *
  */
 #include "robot.h"
-
+#include <stdlib.h>
+#include <stdio.h>
+#include <ctype.h>
 /**
  * main()
  *
@@ -24,6 +27,11 @@ int main(int argc, const char * argv[])
   robotPrintAscii();
   dalekPrintAscii();
   robotPrintMessage();
-
+  if (argc > 1) {
+    if (isdigit(*argv[1])) {
+      dalekPrintAscii();
+      robotPrintMessage();
+    }
+  }
   return 0;
 }
