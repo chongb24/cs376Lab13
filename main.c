@@ -5,7 +5,8 @@
  * program prints the phrase "I really love robots!" to the screen.
  *
  * @author Tanya L. Crenshaw
- * @since August ai2013
+ * @author justin lee 2020
+ * @since August 2013
  *
  */
 #include "robot.h"
