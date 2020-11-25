@@ -62,7 +62,7 @@ void dalekPrintAscii(void)
          "%s    o  0  ()  o    \n"
 	 "%s   o &&&&&&&&& o   \n"
    	 "%s o o o o o o o o o \n"
-   	 "%s o o o o o o o o o \n"
+   	 "%s o PART 5 justin edit \n"
    	 "%s o o o o o o o o o \n", blank, blank, blank, blank, blank, blank, 
 	 blank, blank, blank, blank);
   blank = blank - 10;
